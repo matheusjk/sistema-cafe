@@ -39,7 +39,7 @@ require_once 'cabecalho.php';
     <form action="categorias-busca.php" method="post">
     <input type="hidden" name="operacao" value="categoriapesquisar">
         
-    <input name="busca"  type="number" required class="form-control" placeholder="Buscar">
+    <input name="busca"  type="number" min="1" required class="form-control" placeholder="Buscar">
     </form>
         <br/>
     </div>

@@ -12,11 +12,11 @@
         <div class="col-md-6 col-md-offset-3">
             <div class="form-group">
                 <label for="id">ID :</label>
-                <input name="id" type="number" class="form-control" placeholder="ex:283" pattern="" min= "1" required>
+                <input name="id" type="number" class="form-control" placeholder="ex:283" min= "1" required>
             </div>
             <div class="form-group">
                 <label for="nome">Nome do Café</label>
-                <input name="nome" type="text" class="form-control" placeholder="Nome do Café" pattern="^[a-zA-Z_\- ]+$" required>
+                <input name="nome" type="text" class="form-control" placeholder="Nome do Café" required>
             </div>
             <div class="form-group">
                 <label for="descricao">Descrição do Café</label>
